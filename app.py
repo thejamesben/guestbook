@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-# In-memory database for simplicity
+# List for simplicity
 entries = []
 
 @app.route('/', methods=['GET', 'POST'])
